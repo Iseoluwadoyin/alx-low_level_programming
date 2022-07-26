@@ -37,8 +37,10 @@ conc = malloc(l1 + l2 + 1);
 if (!conc)
 return (0);
 tmp = conc;
-while (*s1)
+while
+(*s1)
 *tmp++ = *s1++;
-while ((*tmp++ = *s2++));
+while
+((*tmp++ = *s2++));
 return (conc);
 }
